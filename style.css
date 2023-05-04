@@ -429,6 +429,7 @@ span {
 }
 .h3-gallery {
 	font-size: 2rem;
+	margin-top: 2rem;
  	margin-bottom: 0.5rem;
 	color: rgb(214, 214, 33);
 	padding: 20px;
@@ -437,12 +438,13 @@ span {
 .photo-gallery {
 	display: flex;
 	flex-wrap: wrap;
-	margin-left: 60px;
+	margin-left: 40px;
 	margin-right: 20px;
 	
 }
 .photo-gallery img {
 	margin-right: 5px;
+	margin-bottom: 5px;
 	border: 2px solid black;
 	border-radius: 10px;
 	box-shadow: 2px 2px 4px rgb(214, 214, 33);
@@ -453,8 +455,7 @@ span {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
-		margin-left: 20px;
-		margin-right: 20px;
+		align-items: center;
 	}
 }
 	
