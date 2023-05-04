@@ -256,7 +256,7 @@ span {
 @media screen and (max-width: 450px) {
 	.about-container {
 		display: flex;
-		flex-direction: column;
+		flex-direction: column-reverse;
 		
 	}
 	.about--intro {
