@@ -427,8 +427,35 @@ span {
 		font-weight: bold;
 	}
 }
+.h3-gallery {
+	font-size: 2rem;
+ 	margin-bottom: 0.5rem;
+	color: rgb(214, 214, 33);
+	padding: 20px;
+	text-align: center;
+}
+.photo-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 60px;
+	margin-right: 20px;
+	
+}
 .photo-gallery img {
+	margin-right: 5px;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px rgb(214, 214, 33);
 	width: 200px;
+}
+@media screen and (max-width: 600px) {
+	.photo-gallery {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
 	
 /* about styling ends here */
@@ -487,27 +514,7 @@ span {
 			font-size: 10px;
 		}
 }
-.photo-gallery {
-	display: flex;
-	flex-wrap: wrap;
-	margin-left: 60px;
-	margin-right: 20px;
-}
-.photo-gallery img {
-	margin-right: 5px;
-	border: 2px solid black;
-	border-radius: 10px;
-	box-shadow: 2px 2px 4px rgb(214, 214, 33);
-}
-@media screen and (max-width: 600px) {
-	.photo-gallery {
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		margin-left: 20px;
-		margin-right: 20px;
-	}
-}
+
 /* skill styling ends here */
 
 /* portfolio styling starts here */
