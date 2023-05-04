@@ -427,6 +427,9 @@ span {
 		font-weight: bold;
 	}
 }
+.photo-gallery img {
+	width: 200px;
+}
 	
 /* about styling ends here */
 
@@ -483,6 +486,27 @@ span {
 			font-weight: bold;
 			font-size: 10px;
 		}
+}
+.photo-gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 60px;
+	margin-right: 20px;
+}
+.photo-gallery img {
+	margin-right: 5px;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 2px 2px 4px rgb(214, 214, 33);
+}
+@media screen and (max-width: 600px) {
+	.photo-gallery {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
 }
 /* skill styling ends here */
 
